@@ -16,7 +16,7 @@ File Creation:
 <script type="text/javascript"> 
 (function(){
   var initial = "file = open(&#039;newTextFile.txt&#039;,&#039;w&#039;)\n" +
-    "file.write(&quot;This is the write command.\n&quot;)\n" +
+    "file.write(&quot;This is the write command.&quot;)\n" +
     "file.write(&quot;It allows us to create and overwrite a particular file.&quot;)\n" +
     "file.close()";
   var parsonsPuzzle = new ParsonsWidget({
@@ -58,7 +58,7 @@ Append and Reading:
 (function(){
   var initial = "# Append to File\n" +
     "file = open(&#039;newTextFile.txt&#039;,&#039;a&#039;)\n" +
-    "file.write(&quot;\nThis will be added to the end of the existing file.&quot;)\n" +
+    "file.write(&quot;This will be added to the end of the existing file.&quot;)\n" +
     "file.close()\n" +
     "#Read File\n" +
     "file = open(&quot;newTextFile.txt&quot;, &quot;r&quot;)\n" +
